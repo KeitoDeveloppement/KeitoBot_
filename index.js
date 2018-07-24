@@ -79,7 +79,7 @@ bot.on('message', message => {
         if(message.channel.id === '471045583520530433') {
             return;
         }
-        if (!message.member.roles.find("name", "Modérateur")) {
+        if (message.member.roles.find("name", "Modérateur")) {
             return;
         }
         message.delete()
