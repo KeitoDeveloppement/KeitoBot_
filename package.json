@@ -1,12 +1,10 @@
 {
-  "name": "botrealmroyale",
+  "name": "keitobot",
   "version": "1.0.0",
-  "description": "Je suis un bot pour Realm Royale",
-  "main": "main.js",
+  "description": "Je suis un bot pour Keito_",
+  "main": "index.js",
   "dependencies": {
     "discord.js": "^11.3.0",
-    "realmroyale": "^3.0.0",
-    "master": "^12.0.0",
     "ms": "^2.1.1"
   },
   "devDependencies": {},
