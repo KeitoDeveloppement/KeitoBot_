@@ -83,7 +83,7 @@ bot.on('message', message => {
             return;
         }
         message.delete()
-        message.author.send("S'il te plaît, ne fais pas de publicité !")
+        message.author.send("S'il te plaît, ne fais pas de publicité dans un autre salon que ceux reservés a cet effet !")
     }
 
     if(message.content === prefix + "twitch") {
