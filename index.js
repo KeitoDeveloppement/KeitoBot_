@@ -16,7 +16,7 @@ bot.on('guildMemberAdd', member => {
     let role = member.guild.roles.find("name", "Follow");
     channel.send(`**${member.user.username}** a rejoint le serveur ! Bienvenue à toi :smile: !`)
     member.addRole(role);
-    member.sendMessage(`Bienvenue sur le serveur Discord Officiel de Keito_ ${member.user.username} ! Je t'invite à lire les règles du serveur dans le salon **"📝règles📝"**.\nSi tu veux savoir les commandes que je peux faire, tapes !help dans le salon "🤖commandes-bot🤖".\nSi tu as besoin d'aide à propos du bot et que je ne peut pas répondre à ta question, je t'invite a contacter mon créateur, @Birsol#1319 !`)
+    member.sendMessage(`Bienvenue sur le serveur Discord Officiel de Keito_ ${member.user.username} !\n\nJe t'invite à lire les règles du serveur dans le salon **"📝règles📝"**.\nSi tu veux savoir les commandes que je peux faire, tapes !help dans le salon "🤖commandes-bot🤖".\nSi tu as besoin d'aide à propos du bot et que je ne peut pas répondre à ta question, je t'invite a contacter mon créateur, @Birsol#1319 !`)
     console.log("Une personne a rejoint le serveur !")
   });
 
