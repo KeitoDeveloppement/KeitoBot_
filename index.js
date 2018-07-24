@@ -73,6 +73,12 @@ bot.on('message', message => {
     }
 
     if (message.content.toUpperCase().includes('HTTPS://')) {
+        if(message.channel.id === '471045474845982721') {
+            return;
+        }
+        if(message.channel.id === '471045583520530433') {
+            return;
+        }
         if (!message.member.roles.find("name", "Modérateur")) {
             return;
         }
