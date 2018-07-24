@@ -9,7 +9,7 @@ bot.on('ready', () => {
     console.log("Je suis prêt à rendre service à Keito_ !");
 });
 
-bot.login('NDcxMzQyNTQ1NDAyODU1NDI0.DjjcCw.rywwVNe-1wjEP_2J9RJ_pxwZWow');
+bot.login(process.env.TOKEN);
 
 bot.on('guildMemberAdd', member => {
     const channel = member.guild.channels.find('name', 'bienvenue');
